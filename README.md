@@ -15,13 +15,13 @@ During the assignment, the student was to accomplish the following:
 
 3. Use descriptive activity names to name the activities in the data set.  This involved replacing the integer activity codes in the original source data with human readable factor names in the tidy data.
 
-4. Appropriately label the data set with descriptive variable names.  The source data included a file _features___info.txt_ that provided labels for the measurement data.  These names contained typographical errors and cryptic abbreviations.  They also included characters that were not compliant with R column naming conventions.  As part of the assignment, these names were converted to human readable column names that complied with R naming rules.
+4. Appropriately label the data set with descriptive variable names.  The source data included a file `features_info.txt` that provided labels for the measurement data.  These names contained typographical errors and cryptic abbreviations.  They also included characters that were not compliant with R column naming conventions.  As part of the assignment, these names were converted to human readable column names that complied with R naming rules.
 
 5. Create a second tidy data set, based on the first, that summarized the data by providing the average of each variable for each activity and each subject.  The student had the option of creating either a _wide_ or _long_ format summary.  The script described below creates both formats.  I submitted the _wide_ format data for grading, since it best matched the original data structures.  The second tidy data set is in the file `tidy2.txt` in this repo.
 
-6. Create a README.md file that describes the assignment and the scripts.  This is the README.md file.
+6. Create a `README.md` file that describes the assignment and the scripts.  This is the README.md file.
 
-7. Create a CodeBook.md file that describes the variables, data, transformations, and other work undertaken to cleanup the raw data.  While the assignment did not specify which data set was to be described in the code book, the Community TAs clarified in the discussion forum that it was to describe the second tidy data set that was uploaded to Coursera when the assignment was submitted.
+7. Create a `CodeBook.md` file that describes the variables, data, transformations, and other work undertaken to cleanup the raw data.  While the assignment did not specify which data set was to be described in the code book, the Community TAs clarified in the discussion forum that it was to describe the second tidy data set that was uploaded to Coursera when the assignment was submitted.
 
 ###Files
 
@@ -33,7 +33,7 @@ The following files are included in the repo as part of this assignment.
  CodeBook.md    | Describes the variables, data, and transformations contained in the second tidy data set
  run_analysis.R | An R script that downloads and extracts the source data, aggregates the raw data into a single data frame, updates the activity and column labels to include human readable names, and creates and saves two tidy data sets.  The script is described in detail below and in comments contained in the source code.
  tidy1.txt      | The first tidy data set which extracts all mean and standard deviation measurements from the original source data set.  It is in a format that can be read with the `read.table()` function in R.
- tidy2.txt  | The second tidy data set, which was also uploaded to Coursera, includes the averages of all measurements in the tidy1 data set.  It is in _wide_ format and is described in the file `Codebook.md` in this repo..  It is in a format that can be read with the `read.table()` function in R.
+ tidy2.txt  | The second tidy data set, which was also uploaded to Coursera, includes the averages of all measurements in the tidy1 data set.  It is in _wide_ format and is described in the file `CodeBook.md` in this repo..  It is in a format that can be read with the `read.table()` function in R.
  
 
 ###Scripts
