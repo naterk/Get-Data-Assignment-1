@@ -404,7 +404,7 @@ createTidy1 <- function(raw.data) {
 ##      The function performs the following actions:
 ##
 ##          1.  Verify the caller supplied format type.
-##          2.  Use ddply()_)) to group the data by activity and subject.  Use
+##          2.  Use ddply() to group the data by activity and subject.  Use
 ##              numcolwise() to compute the mean for each grouping.  This is
 ##              the 'wide' data set.
 ##          3.  If the 'long' format is requested, use melt() to create a separate
