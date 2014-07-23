@@ -243,7 +243,7 @@ The following describes the functions used to assemble and clean the data and to
 	          data.set returned from createTidy1().
 	      tidy.type
 	          A character string specifying whether the summary, tidy data set
-	          should be 'wide' or 'long' (see below).  There is no default.
+	          should be 'wide' or 'long' (see below).  The default is 'wide'.
 	
 	  Returns
 	      A tidy data set consisting of the average of each measurement summarized
@@ -265,7 +265,7 @@ The following describes the functions used to assemble and clean the data and to
 	      The function performs the following actions:
 	
 	          1.  Verify the caller supplied format type.
-	          2.  Use ddply()_)) to group the data by activity and subject.  Use
+	          2.  Use ddply() to group the data by activity and subject.  Use
 	              numcolwise() to compute the mean for each grouping.  This is
 	              the 'wide' data set.
 	          3.  If the 'long' format is requested, use melt() to create a separate

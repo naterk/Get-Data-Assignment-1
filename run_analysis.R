@@ -382,7 +382,7 @@ createTidy1 <- function(raw.data) {
 ##          data.set returned from createTidy1().
 ##      tidy.type
 ##          A character string specifying whether the summary, tidy data set
-##          should be 'wide' or 'long' (see below).  There is no default.
+##          should be 'wide' or 'long' (see below).  The default is 'wide'.
 ##
 ##  Returns
 ##      A tidy data set consisting of the average of each measurement summarized
