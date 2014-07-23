@@ -19,7 +19,7 @@ During the assignment, the student was to accomplish the following:
 
 5. Create a second tidy data set, based on the first, that summarized the data by providing the average of each variable for each activity and each subject.  The student had the option of creating either a _wide_ or _long_ format summary.  The script described below creates both formats.  I submitted the _wide_ format data for grading, since it best matched the original data structures.  The second tidy data set is in the file `tidy2.txt` in this repo.
 
-6. Create a `README.md` file that describes the assignment and the scripts.  This is the README.md file.
+6. Create a `README.md` file that describes the assignment and the scripts.  This is the `README.md` file.
 
 7. Create a `CodeBook.md` file that describes the variables, data, transformations, and other work undertaken to cleanup the raw data.  While the assignment did not specify which data set was to be described in the code book, the Community TAs clarified in the discussion forum that it was to describe the second tidy data set that was uploaded to Coursera when the assignment was submitted.
 
