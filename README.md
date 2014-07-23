@@ -49,6 +49,8 @@ The script implements several functions that can be used individually to manipul
 
 The function `assembleRawData()` will return a data frame containing the consolidated and cleaned source data.  This data frame can be passed to the function `generateTidyData(raw.data)` which will create three text files containing the tidy1, wide tidy2, and long tidy2 data sets.
 
+The script requires the R packages `tools`, `reshape2`, and `plyr`.
+
 ###Functions
 
 The following describes the functions used to assemble and clean the data and to produce the required tidy data sets.  Each description provides the function name, identifies any arguments passed to the function, describes any values returned by the function, and identifies the actions taken by the function to accomplish its task.
