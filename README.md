@@ -11,13 +11,13 @@ During the assignment, the student was to accomplish the following:
 
 1. Merge the training and test data sets available from UCI website to create a single, aggregated data set.  This involved downloading the data set from UCI, extracting the original source files, vertically combining the activity, subject, and feature measurements stored in individual files, and horizontally combining the training and test data into a single data frame.
 
-2. Extract only the measurements on the mean and standard deviation for each measurement.  This involved subsetting the raw data set created in step one, and selecting only measurements identified in the source material as containing the mean or standard deviation.  This is the first tidy data set.  It is stored in the repo as **tidy1.txt**.  In the source data, the relevant measurements were labeled with _mean()_ or _std()_ respectively.  The source data also included a measurement _meanFreq_ which was defined as a "weighted average of the frequency components."  I opted to exclude this data from my tidy data sets because, strictly speaking, a weighted average is not a mean, and there was no corresponding standard deviation measurement.  Community TAs on the discussion board indicated that either choice was valid.
+2. Extract only the measurements on the mean and standard deviation for each measurement.  This involved subsetting the raw data set created in step one, and selecting only measurements identified in the source material as containing the mean or standard deviation.  This is the first tidy data set.  It is stored in the repo as `tidy1.txt`.  In the source data, the relevant measurements were labeled with _mean()_ or _std()_ respectively.  The source data also included a measurement _meanFreq_ which was defined as a "weighted average of the frequency components."  I opted to exclude this data from my tidy data sets because, strictly speaking, a weighted average is not a mean, and there was no corresponding standard deviation measurement.  Community TAs on the discussion board indicated that either choice was valid.
 
 3. Use descriptive activity names to name the activities in the data set.  This involved replacing the integer activity codes in the original source data with human readable factor names in the tidy data.
 
 4. Appropriately label the data set with descriptive variable names.  The source data included a file _features___info.txt_ that provided labels for the measurement data.  These names contained typographical errors and cryptic abbreviations.  They also included characters that were not compliant with R column naming conventions.  As part of the assignment, these names were converted to human readable column names that complied with R naming rules.
 
-5. Create a second tidy data set, based on the first, that summarized the data by providing the average of each variable for each activity and each subject.  The student had the option of creating either a _wide_ or _long_ format summary.  The script described below creates both formats.  I submitted the _wide_ format data for grading, since it best matched the original data structures.
+5. Create a second tidy data set, based on the first, that summarized the data by providing the average of each variable for each activity and each subject.  The student had the option of creating either a _wide_ or _long_ format summary.  The script described below creates both formats.  I submitted the _wide_ format data for grading, since it best matched the original data structures.  The second tidy data set is in the file `tidy2.txt` in this repo.
 
 6. Create a README.md file that describes the assignment and the scripts.  This is the README.md file.
 
@@ -32,8 +32,8 @@ The following files are included in the repo as part of this assignment.
  README.md      | This file.  Describes the assignment, assumptions, and R script.
  CodeBook.md    | Describes the variables, data, and transformations contained in the second tidy data set
  run_analysis.R | An R script that downloads and extracts the source data, aggregates the raw data into a single data frame, updates the activity and column labels to include human readable names, and creates and saves two tidy data sets.  The script is described in detail below and in comments contained in the source code.
- tidy1.txt      | The first tidy data set which extracts all mean and standard deviation measurements from the original source data set.  It is in a format that can be read with the read.table() function in R.
- tidy2.txt  | The second tidy data set, which was also uploaded to Coursera, includes the averages of all measurements in the tidy1 data set.  It is in _wide_ format and is described briefly below and in detail in the code book.  It is in a format that can be read with the read.table() function in R.
+ tidy1.txt      | The first tidy data set which extracts all mean and standard deviation measurements from the original source data set.  It is in a format that can be read with the `read.table()` function in R.
+ tidy2.txt  | The second tidy data set, which was also uploaded to Coursera, includes the averages of all measurements in the tidy1 data set.  It is in _wide_ format and is described in the file `Codebook.md` in this repo..  It is in a format that can be read with the `read.table()` function in R.
  
 
 ###Scripts
