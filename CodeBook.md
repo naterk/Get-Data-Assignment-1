@@ -55,295 +55,453 @@ A zip file of the raw data can be downloaded from [here](https://d396qusza40orc.
 	    Description:  	The mean for this subject-activity pair of the
 	    				mean of the time domain body acceleration along the
 	    				X axis. Values are normalized between -1.0 and 1.0.
-		Values:  		-1.0 to 1.0
+		Values:  		-1.0 to 1.0 [normalized sensor readings]
     
     [4] Name:  time.BodyAcc.Y.Mean
 	    Description:  	The mean for this subject-activity pair of the
 	    				mean of the time domain body acceleration along the
 	    				Y axis. Values are normalized between -1.0 and 1.0.
-		Values:  		-1.0 to 1.0
+		Values:  		-1.0 to 1.0 [normalized sensor readings]
     
     [5] Name:  time.BodyAcc.Z.Mean
 	    Description:  	The mean for this subject-activity pair of the
 	    				mean of the time domain body acceleration along the
 	    				Z axis. Values are normalized between -1.0 and 1.0.
-		Values:  		-1.0 to 1.0
+		Values:  		-1.0 to 1.0 [normalized sensor readings]
     
     [6] Name:  time.BodyAcc.X.StdDev
 	    Description:  	The mean for this subject-activity pair of the
 	    				standard deviation  of the time domain body
 	    				acceleration along the X axis. Values are
 	    				normalized between -1.0 and 1.0.
-		Values:  		-1.0 to 1.0
+		Values:  		-1.0 to 1.0 [normalized sensor readings]
     
     [7] Name:  time.BodyAcc.Y.StdDev
 	    Description:  	The mean for this subject-activity pair of the
 	    				standard deviation  of the time domain body
 	    				acceleration along the Y axis. Values are
 	    				normalized between -1.0 and 1.0.
-		Values:  		-1.0 to 1.0
+		Values:  		-1.0 to 1.0 [normalized sensor readings]
     
     [8] Name:  time.BodyAcc.Z.StdDev
 	    Description:  	The mean for this subject-activity pair of the
 	    				standard deviation  of the time domain body
 	    				acceleration along the Z axis. Values are
 	    				normalized between -1.0 and 1.0.
-		Values:  		-1.0 to 1.0
+		Values:  		-1.0 to 1.0 [normalized sensor readings]
     
     [9] Name:  time.GravityAcc.X.Mean
 	    Description:  	The mean for this subject-activity pair of the
 	    				mean of the time domain gravity acceleration along
 	    				the X axis. Values are normalized between -1.0 and
 	    				1.0.
-		Values:  		-1.0 to 1.0
+		Values:  		-1.0 to 1.0 [normalized sensor readings]
     
     [10] Name:  time.GravityAcc.Y.Mean
 	    Description:  	The mean for this subject-activity pair of the
 	    				mean of the time domain gravity acceleration along
 	    				the Y axis. Values are normalized between -1.0 and
 	    				1.0.
-		Values:  		-1.0 to 1.0
+		Values:  		-1.0 to 1.0 [normalized sensor readings]
     
     [11] Name:  time.GravityAcc.Z.Mean
 	    Description:  	The mean for this subject-activity pair of the
 	    				mean of the time domain gravity acceleration along
 	    				the Z axis. Values are normalized between -1.0 and
 	    				1.0.
-		Values:  		-1.0 to 1.0
+		Values:  		-1.0 to 1.0 [normalized sensor readings]
     
     [12] Name:  time.GravityAcc.X.StdDev
 	    Description:  	The mean for this subject-activity pair of the
 	    				standard deviation  of the time domain gravity
 	    				acceleration along the X axis. Values are
 	    				normalized between -1.0 and 1.0.
-		Values:  		-1.0 to 1.0
+		Values:  		-1.0 to 1.0 [normalized sensor readings]
     
     [13] Name:  time.GravityAcc.Y.StdDev
 	    Description:  	The mean for this subject-activity pair of the
 	    				standard deviation  of the time domain gravity
 	    				acceleration along the Y axis. Values are
 	    				normalized between -1.0 and 1.0.
-		Values:  		-1.0 to 1.0
+		Values:  		-1.0 to 1.0 [normalized sensor readings]
     
     [14] Name:  time.GravityAcc.Z.StdDev
 	    Description:  	The mean for this subject-activity pair of the
 	    				standard deviation  of the time domain gravity
 	    				acceleration along the Z axis. Values are
 	    				normalized between -1.0 and 1.0.
-		Values:  		-1.0 to 1.0
+		Values:  		-1.0 to 1.0 [normalized sensor readings]
     
     [15] Name:  time.BodyAccJerk.X.Mean
-	    Description:  
-			    Values:  
+	    Description:  	The mean for this subject-activity pair of the
+	    				mean  of the time domain body acceleration jerk
+	    				signal along the X axis. Values are normalized
+	    				between -1.0 and 1.0.
+		Values:  		-1.0 to 1.0 [normalized sensor readings]
     
     [16] Name:  time.BodyAccJerk.Y.Mean
-	    Description:  
-			    Values:  
+	    Description:  	The mean for this subject-activity pair of the
+	    				mean  of the time domain body acceleration jerk
+	    				signal along the Y axis. Values are normalized
+	    				between -1.0 and 1.0.
+		Values:  		-1.0 to 1.0 [normalized sensor readings]
     
     [17] Name:  time.BodyAccJerk.Z.Mean
-	    Description:  
-			    Values:  
+	    Description:  	The mean for this subject-activity pair of the
+	    				mean  of the time domain body acceleration jerk
+	    				signal along the Z axis. Values are normalized
+	    				between -1.0 and 1.0.
+		Values:  		-1.0 to 1.0 [normalized sensor readings]
     
     [18] Name:  time.BodyAccJerk.X.StdDev
-	    Description:  
-			    Values:  
+	    Description:  	The mean for this subject-activity pair of the
+	    				standard deviation  of the time domain body
+	    				jerk acceleration signal along the X axis.
+	    				Values are normalized between -1.0 and 1.0.
+		Values:  		-1.0 to 1.0 [normalized sensor readings]
     
     [19] Name:  time.BodyAccJerk.Y.StdDev
-	    Description:  
-			    Values:  
+	    Description:  	The mean for this subject-activity pair of the
+	    				standard deviation  of the time domain body
+	    				jerk acceleration signal along the Y axis.
+	    				Values are normalized between -1.0 and 1.0.
+		Values:  		-1.0 to 1.0 [normalized sensor readings]
     
     [20] Name:  time.BodyAccJerk.Z.StdDev
-	    Description:  
-			    Values:  
+	    Description:  	The mean for this subject-activity pair of the
+	    				standard deviation  of the time domain body
+	    				jerk acceleration signal along the Z axis.
+	    				Values are normalized between -1.0 and 1.0.
+		Values:  		-1.0 to 1.0 [normalized sensor readings]
     
     [21] Name:  time.BodyGyro.X.Mean
-	    Description:  
-			    Values:  
+	    Description:  	The mean for this subject-activity pair of the
+	    				mean of the time domain gyro acceleration along the
+	    				X axis. Values are normalized between -1.0 and 1.0.
+		Values:  		-1.0 to 1.0 [normalized sensor readings]
     
     [22] Name:  time.BodyGyro.Y.Mean
-	    Description:  
-			    Values:  
+	    Description:  	The mean for this subject-activity pair of the
+	    				mean of the time domain gyro acceleration along the
+	    				Y axis. Values are normalized between -1.0 and 1.0.
+		Values:  		-1.0 to 1.0 [normalized sensor readings]
     
     [23] Name:  time.BodyGyro.Z.Mean
-	    Description:  
-			    Values:  
+	    Description:  	The mean for this subject-activity pair of the
+	    				mean of the time domain gyro acceleration along the
+	    				Z axis. Values are normalized between -1.0 and 1.0.
+		Values:  		-1.0 to 1.0 [normalized sensor readings]
     
     [24] Name:  time.BodyGyro.X.StdDev
-	    Description:  
-			    Values:  
+	    Description:  	The mean for this subject-activity pair of the
+	    				standard deviation  of the time domain gyro
+	    				acceleration along the X axis. Values are
+	    				normalized between -1.0 and 1.0.
+		Values:  		-1.0 to 1.0 [normalized sensor readings]
     
     [25] Name:  time.BodyGyro.Y.StdDev
-	    Description:  
-			    Values:  
+	    Description:  	The mean for this subject-activity pair of the
+	    				standard deviation  of the time domain gyro
+	    				acceleration along the Y axis. Values are
+	    				normalized between -1.0 and 1.0.
+		Values:  		-1.0 to 1.0 [normalized sensor readings]
     
     [26] Name:  time.BodyGyro.Z.StdDev
-	    Description:  
-			    Values:  
+	    Description:  	The mean for this subject-activity pair of the
+	    				standard deviation  of the time domain gyro
+	    				acceleration along the Z axis. Values are
+	    				normalized between -1.0 and 1.0.
+		Values:  		-1.0 to 1.0 [normalized sensor readings]
     
     [27] Name:  time.BodyGyroJerk.X.Mean
-	    Description:  
-			    Values:  
+	    Description:  	The mean for this subject-activity pair of the
+	    				mean  of the time domain body gyro jerk
+	    				signal along the X axis. Values are normalized
+	    				between -1.0 and 1.0.
+		Values:  		-1.0 to 1.0 [normalized sensor readings]
     
     [28] Name:  time.BodyGyroJerk.Y.Mean
-	    Description:  
-			    Values:  
+	    Description:  	The mean for this subject-activity pair of the
+	    				mean  of the time domain body gyro jerk
+	    				signal along the Y axis. Values are normalized
+	    				between -1.0 and 1.0.
+		Values:  		-1.0 to 1.0 [normalized sensor readings]
     
     [29] Name:  time.BodyGyroJerk.Z.Mean
-	    Description:  
-			    Values:  
+	    Description:  	The mean for this subject-activity pair of the
+	    				mean  of the time domain body gyro jerk
+	    				signal along the Z axis. Values are normalized
+	    				between -1.0 and 1.0.
+		Values:  		-1.0 to 1.0 [normalized sensor readings]
     
     [30] Name:  time.BodyGyroJerk.X.StdDev
-	    Description:  
-			    Values:  
+	    Description:  	The mean for this subject-activity pair of the
+	    				standard deviation  of the time domain body
+	    				jerk gyro signal along the X axis. Values
+	    				are normalized between -1.0 and 1.0.
+		Values:  		-1.0 to 1.0 [normalized sensor readings]
     
     [31] Name:  time.BodyGyroJerk.Y.StdDev
-	    Description:  
-			    Values:  
+	    Description:  	The mean for this subject-activity pair of the
+	    				standard deviation  of the time domain body
+	    				jerk gyro signal along the Y axis. Values
+	    				are normalized between -1.0 and 1.0.
+		Values:  		-1.0 to 1.0 [normalized sensor readings]
     
     [32] Name:  time.BodyGyroJerk.Z.StdDev
-	    Description:  
-			    Values:  
+	    Description:  	The mean for this subject-activity pair of the
+	    				standard deviation  of the time domain body
+	    				jerk gyro signal along the Z axis. Values
+	    				are normalized between -1.0 and 1.0.
+		Values:  		-1.0 to 1.0 [normalized sensor readings]
     
     [33] Name:  time.BodyAccMag.Mean
-	    Description:  
-			    Values:  
+	    Description:  	The mean for this subject-activity pair of the
+	    				mean of the magnitude of the time domain body
+	    				acceleration. Values are normalized between
+	    				-1.0 and 1.0.
+		Values:  		-1.0 to 1.0 [normalized sensor readings]
     
     [34] Name:  time.BodyAccMag.StdDev
-	    Description:  
-			    Values:  
+	    Description:  	The mean for this subject-activity pair of the
+	    				standard deviation of the magnitude of the time
+	    				domain body acceleration. Values are normalized
+	    				between -1.0 and 1.0.
+		Values:  		-1.0 to 1.0 [normalized sensor readings]
     
     [35] Name:  time.GravityAccMag.Mean
-	    Description:  
-			    Values:  
+	    Description:  	The mean for this subject-activity pair of the
+	    				mean of the magnitude of the time domain gravity
+	    				signal. Values are normalized between -1.0
+	    				-1.0 and 1.0.
+		Values:  		-1.0 to 1.0 [normalized sensor readings]
     
     [36] Name:  time.GravityAccMag.StdDev
-	    Description:  
-			    Values:  
+	    Description:  	The mean for this subject-activity pair of the
+	    				standard deviation of the magnitude of the time
+	    				domain gravity signal. Values are normalized
+	    				between -1.0 and 1.0.
+		Values:  		-1.0 to 1.0 [normalized sensor readings]
     
     [37] Name:  time.BodyAccJerkMag.Mean
-	    Description:  
-			    Values:  
+	    Description:  	The mean for this subject-activity pair of the
+	    				mean of the magnitude of the time domain acceleration
+	    				jerk signal. Values are normalized between
+	    				-1.0 and 1.0.
+		Values:  		-1.0 to 1.0 [normalized sensor readings]
     
     [38] Name:  time.BodyAccJerkMag.StdDev
-	    Description:  
-			    Values:  
+	    Description:  	The mean for this subject-activity pair of the
+	    				standard deviation of the magnitude of the time
+	    				domain acceleration jerk signal. Values are
+	    				normalized between -1.0 and 1.0.
+		Values:  		-1.0 to 1.0 [normalized sensor readings]
     
     [39] Name:  time.BodyGyroMag.Mean
-	    Description:  
-			    Values:  
+	    Description:  	The mean for this subject-activity pair of the
+	    				mean of the magnitude of the time domain gyro
+	    				signal. Values are normalized between
+		Values:  		-1.0 to 1.0 [normalized sensor readings]
     
     [40] Name:  time.BodyGyroMag.StdDev
-	    Description:  
-			    Values:  
+	    Description:  	The mean for this subject-activity pair of the
+	    				standard deviation of the magnitude of the time
+	    				domain gyro signal. Values are normalized
+	    				between -1.0 and 1.0.
+		Values:  		-1.0 to 1.0 [normalized sensor readings]
     
     [41] Name:  time.BodyGyroJerkMag.Mean
-	    Description:  
-			    Values:  
+	    Description:  	The mean for this subject-activity pair of the
+	    				mean of the magnitude of the time domain gyro
+	    				jerk signal. Values are normalized between
+	    				-1.0 and 1.0.
+		Values:  		-1.0 to 1.0 [normalized sensor readings]
     
     [42] Name:  time.BodyGyroJerkMag.StdDev
-	    Description:  
-			    Values:  
+	    Description:  	The mean for this subject-activity pair of the
+	    				standard deviation of the magnitude of the time
+	    				domain gyro jerk signal. Values are
+	    				normalized between -1.0 and 1.0.
+		Values:  		-1.0 to 1.0 [normalized sensor readings]
     
     [43] Name:  freq.BodyAcc.X.Mean
-	    Description:  
-			    Values:  
+	    Description:  	The mean for this subject-activity pair of the
+	    				mean of the frequency domain body acceleration
+	    				along the X axis. Values are normalized between
+	    				-1.0 and 1.0.
+		Values:  		-1.0 to 1.0 [normalized sensor readings]
     
     [44] Name:  freq.BodyAcc.Y.Mean
-	    Description:  
-			    Values:  
+	    Description:  	The mean for this subject-activity pair of the
+	    				mean of the frequency domain body acceleration
+	    				along the Y axis. Values are normalized between
+	    				-1.0 and 1.0.
+		Values:  		-1.0 to 1.0 [normalized sensor readings]
     
     [45] Name:  freq.BodyAcc.Z.Mean
-	    Description:  
-			    Values:  
+	    Description:  	The mean for this subject-activity pair of the
+	    				mean of the frequency domain body acceleration
+	    				along the Z axis. Values are normalized between
+	    				-1.0 and 1.0.
+		Values:  		-1.0 to 1.0 [normalized sensor readings]
     
     [46] Name:  freq.BodyAcc.X.StdDev
-	    Description:  
-			    Values:  
+	    Description:  	The mean for this subject-activity pair of the
+	    				standard deviation of the frequency domain body
+	    				acceleration along the X axis. Values are normalized
+	    				between -1.0 and 1.0.
+		Values:  		-1.0 to 1.0 [normalized sensor readings]
     
     [47] Name:  freq.BodyAcc.Y.StdDev
-	    Description:  
-			    Values:  
+	    Description:  	The mean for this subject-activity pair of the
+	    				standard deviation of the frequency domain body
+	    				acceleration along the Y axis. Values are normalized
+	    				between -1.0 and 1.0.
+		Values:  		-1.0 to 1.0 [normalized sensor readings]
     
     [48] Name:  freq.BodyAcc.Z.StdDev
-	    Description:  
-			    Values:  
+	    Description:  	The mean for this subject-activity pair of the
+	    				standard deviation of the frequency domain body
+	    				acceleration along the Z axis. Values are normalized
+	    				between -1.0 and 1.0.
+		Values:  		-1.0 to 1.0 [normalized sensor readings]
     
     [49] Name:  freq.BodyAccJerk.X.Mean
-	    Description:  
-			    Values:  
+	    Description:  	The mean for this subject-activity pair of the
+	    				mean of the frequency domain body jerk acceleration
+	    				along the X axis. Values are normalized between
+	    				-1.0 and 1.0.
+		Values:  		-1.0 to 1.0 [normalized sensor readings]
     
     [50] Name:  freq.BodyAccJerk.Y.Mean
-	    Description:  
-			    Values:  
+	    Description:  	The mean for this subject-activity pair of the
+	    				mean of the frequency domain body jerk acceleration
+	    				along the Y axis. Values are normalized between
+	    				-1.0 and 1.0.
+		Values:  		-1.0 to 1.0 [normalized sensor readings]
     
     [51] Name:  freq.BodyAccJerk.Z.Mean
-	    Description:  
-			    Values:  
+	    Description:  	The mean for this subject-activity pair of the
+	    				mean of the frequency domain body jerk acceleration
+	    				along the Z axis. Values are normalized between
+	    				-1.0 and 1.0.
+		Values:  		-1.0 to 1.0 [normalized sensor readings]
     
     [52] Name:  freq.BodyAccJerk.X.StdDev
-	    Description:  
-			    Values:  
+	    Description:  	The mean for this subject-activity pair of the
+	    				standard deviation of the frequency domain body
+	    				jerk acceleration along the X axis. Values are
+	    				normalized between -1.0 and 1.0.
+		Values:  		-1.0 to 1.0 [normalized sensor readings]
     
     [53] Name:  freq.BodyAccJerk.Y.StdDev
-	    Description:  
-			    Values:  
+	    Description:  	The mean for this subject-activity pair of the
+	    				standard deviation of the frequency domain body
+	    				jerk acceleration along the Y axis. Values are
+	    				normalized between -1.0 and 1.0.
+		Values:  		-1.0 to 1.0 [normalized sensor readings]
     
     [54] Name:  freq.BodyAccJerk.Z.StdDev
-	    Description:  
-			    Values:  
+	    Description:  	The mean for this subject-activity pair of the
+	    				standard deviation of the frequency domain body
+	    				jerk acceleration along the Z axis. Values are
+	    				normalized between -1.0 and 1.0.
+		Values:  		-1.0 to 1.0 [normalized sensor readings]
     
     [55] Name:  freq.BodyGyro.X.Mean
-	    Description:  
-			    Values:  
+	    Description:  	The mean for this subject-activity pair of the
+	    				mean of the frequency domain body gyro signal
+	    				along the X axis. Values are normalized between
+	    				-1.0 and 1.0.
+		Values:  		-1.0 to 1.0 [normalized sensor readings]
     
     [56] Name:  freq.BodyGyro.Y.Mean
-	    Description:  
-			    Values:  
+	    Description:  	The mean for this subject-activity pair of the
+	    				mean of the frequency domain body gyro signal
+	    				along the Y axis. Values are normalized between
+	    				-1.0 and 1.0.
+		Values:  		-1.0 to 1.0 [normalized sensor readings]
     
     [57] Name:  freq.BodyGyro.Z.Mean
-	    Description:  
-			    Values:  
+	    Description:  	The mean for this subject-activity pair of the
+	    				mean of the frequency domain body gyro signal
+	    				along the Z axis. Values are normalized between
+	    				-1.0 and 1.0.
+		Values:  		-1.0 to 1.0 [normalized sensor readings]
     
     [58] Name:  freq.BodyGyro.X.StdDev
-	    Description:  
-			    Values:  
+	    Description:  	The mean for this subject-activity pair of the
+	    				standard deviation of the frequency domain body
+	    				gyro signal along the X axis. Values are
+	    				normalized between -1.0 and 1.0.
+		Values:  		-1.0 to 1.0 [normalized sensor readings]
     
     [59] Name:  freq.BodyGyro.Y.StdDev
-	    Description:  
-			    Values:  
+	    Description:  	The mean for this subject-activity pair of the
+	    				standard deviation of the frequency domain body
+	    				gyro signal along the Y axis. Values are
+	    				normalized between -1.0 and 1.0.
+		Values:  		-1.0 to 1.0 [normalized sensor readings]
     
     [60] Name:  freq.BodyGyro.Z.StdDev
-	    Description:  
-			    Values:  
+	    Description:  	The mean for this subject-activity pair of the
+	    				standard deviation of the frequency domain body
+	    				gyro signal along the Z axis. Values are
+	    				normalized between -1.0 and 1.0.
+		Values:  		-1.0 to 1.0 [normalized sensor readings]
     
     [61] Name:  freq.BodyAccMag.Mean
-	    Description:  
-			    Values:  
+	    Description:  	The mean for this subject-activity pair of the
+	    				mean of the magnitude of the frequency domain body
+	    				acceleration. Values are normalized between
+	    				-1.0 and 1.0.
+		Values:  		-1.0 to 1.0 [normalized sensor readings]
     
     [62] Name:  freq.BodyAccMag.StdDev
-	    Description:  
-			    Values:  
+	    Description:  	The mean for this subject-activity pair of the
+	    				standard deviation of the magnitude of the
+	    				frequency domain body acceleration. Values
+	    				are normalized between -1.0 and 1.0.
+		Values:  		-1.0 to 1.0 [normalized sensor readings]
     
     [63] Name:  freq.BodyAccJerkMag.Mean
-	    Description:  
-			    Values:  
+	    Description:  	The mean for this subject-activity pair of the
+	    				mean of the magnitude of the frequency domain body
+	    				jerk acceleration. Values are normalized between
+	    				-1.0 and 1.0.
+		Values:  		-1.0 to 1.0 [normalized sensor readings]
     
     [64] Name:  freq.BodyAccJerkMag.StdDev
-	    Description:  
-			    Values:  
+	    Description:  	The mean for this subject-activity pair of the
+	    				standard deviation of the magnitude of the
+	    				frequency domain body jerk acceleration. Values
+	    				are normalized between -1.0 and 1.0.
+		Values:  		-1.0 to 1.0 [normalized sensor readings]
     
     [65] Name:  freq.BodyGyroMag.Mean
-	    Description:  
-			    Values:  
+	    Description:  	The mean for this subject-activity pair of the
+	    				mean of the magnitude of the frequency domain body
+	    				gyro signal. Values are normalized between
+	    				-1.0 and 1.0.
+		Values:  		-1.0 to 1.0 [normalized sensor readings]
     
     [66] Name:  freq.BodyGyroMag.StdDev
-	    Description:  
-			    Values:  
+	    Description:  	The mean for this subject-activity pair of the
+	    				standard deviation of the magnitude of the
+	    				frequency domain body gyro signal. Values
+	    				are normalized between -1.0 and 1.0.
+		Values:  		-1.0 to 1.0 [normalized sensor readings]
     
     [67] Name:  freq.BodyGyroJerkMag.Mean
-	    Description:  
-			    Values:  
+	    Description:  	The mean for this subject-activity pair of the
+	    				mean of the magnitude of the frequency domain body
+	    				gyro jerk signal. Values are normalized between
+	    				-1.0 and 1.0.
+		Values:  		-1.0 to 1.0 [normalized sensor readings]
     
     [68] Name:  freq.BodyGyroJerkMag.StdDev
-	    Description:  
-			    Values:  
+	    Description:  	The mean for this subject-activity pair of the
+	    				standard deviation of the magnitude of the
+	    				frequency domain body gyro jerk signal. Values
+	    				are normalized between -1.0 and 1.0.
+		Values:  		-1.0 to 1.0 [normalized sensor readings]
