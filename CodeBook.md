@@ -5,67 +5,132 @@ Assignment:  1
 
 ####Overview
 
+The data set described here is derived from experiments conducted at the Non Linear Complex Systems Laboratory at the Università degli Studi di Genova, Italy.  Volunteers performed six tasks while wearing a Samsung Galaxy S II smartphone on their waste.  The original data set contains: triaxial acceleration from the accelerometer (total acceleration) and the estimated body acceleration; triaxial angular velocity from the gyroscope; a 561-feature vector with time and frequency domain variables; an activity label; and an identifier of the subject who carried out the experiment.
+
+The revised data set contains mean by activity and subject, for each mean and standard deviation data element in the original dataset.
+
+####Acknowledgments and License
+
+The original research was conducted by:
+
+Jorge L. Reyes-Ortiz, Davide Anguita, Alessandro Ghio, Luca Oneto.  
+Smartlab - Non Linear Complex Systems Laboratory  
+DITEN - Università degli Studi di Genova.  
+Via Opera Pia 11A, I-16145, Genoa, Italy.  
+activityrecognition@smartlab.ws  
+www.smartlab.ws  
+
+Use of the original data set in publications must be acknowledged by referencing the following publication [1] 
+
+[1] Davide Anguita, Alessandro Ghio, Luca Oneto, Xavier Parra and Jorge L. Reyes-Ortiz. Human Activity Recognition on Smartphones using a Multiclass Hardware-Friendly Support Vector Machine. International Workshop of Ambient Assisted Living (IWAAL 2012). Vitoria-Gasteiz, Spain. Dec 2012
+
+This dataset is distributed AS-IS and no responsibility implied or explicit can be addressed to the authors or their institutions for its use or misuse. Any commercial use is prohibited.
+
+Jorge L. Reyes-Ortiz, Alessandro Ghio, Luca Oneto, Davide Anguita. November 2012.
+
 ####Data Source
 
-####Naming Conventions
+The assignment uses [data](http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones) from the Human Activity Recognition Using Smartphone data set, version 1, available from the Machine Learning Repository at the Center for Machine Learning and Intelligence Systems at the University of California, Irvine (UCI).
+
+A zip file of the raw data can be downloaded from [here](https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip).  The md5 checksum of the zip file used to generate this data set is `d29710c9530a31f303801b6bc34bd895`  The `README.txt` file included with the zip file describes the contents and file structure of the raw data.
 
 ####Data Dictionary - `Tidy1.txt`
 
-	[1] Name:  activity
-	    Description:  
-			    Values:  
+	[1] Name:  			activity
+	    Description:	A factor describing the activity performed by the
+	    			 	subject that resulted in the measurement data.
+		Values:			Walking
+			    		WalkingUpstairs
+			    		WalkingDownstairs
+			    		Sitting
+			    		Standing
+			    		Laying	
     
-    [2] Name:  subject
-	    Description:  
-			    Values:  
+    [2] Name:  			subject
+	    Description:	A unique integer identifying the volunteer
+	    				performing the specified activity.
+		Values:			1:30
     
-    [3] Name:  time.BodyAcc.X.Mean
-	    Description:  
-			    Values:  
+    [3] Name:  			time.BodyAcc.X.Mean
+	    Description:  	The mean for this subject-activity pair of the
+	    				mean of the time domain body acceleration along the
+	    				X axis. Values are normalized between -1.0 and 1.0.
+		Values:  		-1.0 to 1.0
     
     [4] Name:  time.BodyAcc.Y.Mean
-	    Description:  
-			    Values:  
+	    Description:  	The mean for this subject-activity pair of the
+	    				mean of the time domain body acceleration along the
+	    				Y axis. Values are normalized between -1.0 and 1.0.
+		Values:  		-1.0 to 1.0
     
     [5] Name:  time.BodyAcc.Z.Mean
-	    Description:  
-			    Values:  
+	    Description:  	The mean for this subject-activity pair of the
+	    				mean of the time domain body acceleration along the
+	    				Z axis. Values are normalized between -1.0 and 1.0.
+		Values:  		-1.0 to 1.0
     
     [6] Name:  time.BodyAcc.X.StdDev
-	    Description:  
-			    Values:  
+	    Description:  	The mean for this subject-activity pair of the
+	    				standard deviation  of the time domain body
+	    				acceleration along the X axis. Values are
+	    				normalized between -1.0 and 1.0.
+		Values:  		-1.0 to 1.0
     
     [7] Name:  time.BodyAcc.Y.StdDev
-	    Description:  
-			    Values:  
+	    Description:  	The mean for this subject-activity pair of the
+	    				standard deviation  of the time domain body
+	    				acceleration along the Y axis. Values are
+	    				normalized between -1.0 and 1.0.
+		Values:  		-1.0 to 1.0
     
     [8] Name:  time.BodyAcc.Z.StdDev
-	    Description:  
-			    Values:  
+	    Description:  	The mean for this subject-activity pair of the
+	    				standard deviation  of the time domain body
+	    				acceleration along the Z axis. Values are
+	    				normalized between -1.0 and 1.0.
+		Values:  		-1.0 to 1.0
     
     [9] Name:  time.GravityAcc.X.Mean
-	    Description:  
-			    Values:  
+	    Description:  	The mean for this subject-activity pair of the
+	    				mean of the time domain gravity acceleration along
+	    				the X axis. Values are normalized between -1.0 and
+	    				1.0.
+		Values:  		-1.0 to 1.0
     
     [10] Name:  time.GravityAcc.Y.Mean
-	    Description:  
-			    Values:  
+	    Description:  	The mean for this subject-activity pair of the
+	    				mean of the time domain gravity acceleration along
+	    				the Y axis. Values are normalized between -1.0 and
+	    				1.0.
+		Values:  		-1.0 to 1.0
     
     [11] Name:  time.GravityAcc.Z.Mean
-	    Description:  
-			    Values:  
+	    Description:  	The mean for this subject-activity pair of the
+	    				mean of the time domain gravity acceleration along
+	    				the Z axis. Values are normalized between -1.0 and
+	    				1.0.
+		Values:  		-1.0 to 1.0
     
     [12] Name:  time.GravityAcc.X.StdDev
-	    Description:  
-			    Values:  
+	    Description:  	The mean for this subject-activity pair of the
+	    				standard deviation  of the time domain gravity
+	    				acceleration along the X axis. Values are
+	    				normalized between -1.0 and 1.0.
+		Values:  		-1.0 to 1.0
     
     [13] Name:  time.GravityAcc.Y.StdDev
-	    Description:  
-			    Values:  
+	    Description:  	The mean for this subject-activity pair of the
+	    				standard deviation  of the time domain gravity
+	    				acceleration along the Y axis. Values are
+	    				normalized between -1.0 and 1.0.
+		Values:  		-1.0 to 1.0
     
     [14] Name:  time.GravityAcc.Z.StdDev
-	    Description:  
-			    Values:  
+	    Description:  	The mean for this subject-activity pair of the
+	    				standard deviation  of the time domain gravity
+	    				acceleration along the Z axis. Values are
+	    				normalized between -1.0 and 1.0.
+		Values:  		-1.0 to 1.0
     
     [15] Name:  time.BodyAccJerk.X.Mean
 	    Description:  
@@ -239,7 +304,7 @@ Assignment:  1
 	    Description:  
 			    Values:  
     
-   [58] Name:  freq.BodyGyro.X.StdDev
+    [58] Name:  freq.BodyGyro.X.StdDev
 	    Description:  
 			    Values:  
     
